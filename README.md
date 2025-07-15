@@ -1,21 +1,20 @@
 # Teachable-Fruits-Classifier
 
-# 🍎🍊 Apple vs Orange Image Classifier
 
-This is a simple image classification project that distinguishes between **apples** and **oranges** using a pre-trained **Keras model**.
+This is a simple image classification project that recognites between **apples** and **oranges** using a pre-trained **Keras model**.
 
----
 
-## 📂 Dataset
+
+## Dataset
 
 The dataset used for training was sourced from **Kaggle**:  
-**Apple vs Orange – Binary Classification Dataset**
+[Apple vs Orange - Binary Classification Dataset](https://www.kaggle.com/datasets/kipshidze/apple-vs-orange-binary-classification)
+
 
 It contains labeled images of apples and oranges for binary classification.
 
----
 
-## 🧠 Model Training
+## Model Training
 
 The model was trained using **Teachable Machine by Google**, a tool that simplifies the process of training image classifiers with transfer learning.
 
@@ -24,25 +23,23 @@ The model was trained using **Teachable Machine by Google**, a tool that simplif
 2. Trained the model using the **"Image Project"** option.
 3. Exported the model in **Keras format** (`keras_model.h5`) along with the `labels.txt` file.
 
----
 
-## 🖼️ Example Output
+
+## Example Output
 
 The model loads an input image and predicts the class (**Apple** or **Orange**) along with a **confidence score**.
 
 ![Prediction Example](example_output.png)  
 *Figure 1: Example prediction showing classification result and confidence.*
 
----
 
-## 🚀 How to Run
+
+## How to Run
 
 Make sure the following files are in your working directory:
 
 - `keras_model.h5` – exported Keras model from Teachable Machine  
 - `labels.txt` – class labels  
 - A test image (e.g., `test.png`)
-
-### Run the script:
-```bash
-python classify.py
+The code used to run the model and classify images is provided in following file:
+[`classify.py`](classify.py)
