@@ -19,13 +19,6 @@ The model was trained using **Teachable Machine by Google**, a tool that simplif
 2. Trained the model using the **"Image Project"** option.
 3. Exported the model in **Keras format** (`keras_model.h5`) along with the `labels.txt` file.
 
-## Example Output
-
-The model loads an input image and predicts the class (**Apple** or **Orange**) along with a **confidence score**.
-
-![Prediction Example](example_output.png)  
-*Figure 1: Example prediction showing classification result and confidence.*
-
 ## How to Run
 
 Make sure the following files are in your working directory:
@@ -36,3 +29,12 @@ Make sure the following files are in your working directory:
 
 The code used to run the model and classify images is provided in following file:
 [`classify.py`](classify.py)
+
+## Example Output
+
+The model loads an input image and predicts the class (**Apple** or **Orange**) along with a **confidence score**.
+
+![Prediction Example](example_output.png)  
+*Figure 1: Example prediction showing classification result and confidence.*
+
+
